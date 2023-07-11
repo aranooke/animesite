@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.page-template {
+    width: 100%;
+    background-image: url("../madara.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    opacity: 0.9;
+    box-shadow: 5px 9px 9px 2px #000;
+    filter: hue-rotate(40deg) contrast(190%)
+    brightness(85%)
+}
+.page-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:50%;
+    
+}
+.page-header-h1 {
+    font-size: 43px;
+    color: #fff;
+    text-align: center;
+
+}
+.main-template {
+    background-image: url("../obito.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding:150px 0 0 0;
+}
+.main-flexbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    height:1000px;
+    
+}
+.main-flex {
+    box-shadow: 5px 9px 9px 2px #000;
+    height:980px;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: rgb(49,23,54);
+    background: linear-gradient(90deg, rgba(49,23,54,1) 0%, rgba(144,23,125,0.83) 100%)
+}
+.main-flex>p {
+    padding: 8px;
+}
+p {
+    font-size: 22px;
+    color:white;
+    line-height: 1.6;
+}
+.main-flex>img {
+    width: 400px;
+    height: 500px;
+    
+    
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.flex-ability-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+
+}
+.flex-ability-items h1 {
+    color:white;
+}
+.text-information {
+    padding: 5px;
+}
+.p-abilities {
+    
+}
+@media screen and(max-device-width:600px) {
+    p {
+        font-size: 16px;
+        
+    }
+    div {
+        width: 150px;
+        
+    }
+    
+}
